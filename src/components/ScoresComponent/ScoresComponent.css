@@ -1,0 +1,60 @@
+@font-face {
+  font-family: exo-bold;
+  src: url('../../assets/fonts/exo-bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.box{
+  width: 100%;
+  float: none;
+}
+
+/*Score box es la caja y su position es relative y flotando a la derecha
+pero sus componentes internos son absolute y el ancho de su padre
+representa para ellos todo el ancho*/
+.scoreBox{
+  width: 100px;
+  height: 30px;
+  position: relative;
+
+  margin-left: 5px;
+  margin-bottom: 5px;
+
+  float: left;
+}
+
+.scoreBox .firstIcon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.scoreBox .lastIcon{
+  position: absolute;
+
+  height: 25px;
+
+  top: 2px;
+  right: 0;
+  z-index: 1;
+}
+
+.scoreTextBox{
+  background: #00a5b1;
+
+  width: 90%;
+  height: 25px;
+  
+  position: absolute;
+  top: 2.5px;
+  left: 5%;
+
+  text-align: center;
+  border-radius: 50px;
+  font-family: exo-bold;
+  color: white;
+  font-size: 20px;
+  z-index: 0;
+}

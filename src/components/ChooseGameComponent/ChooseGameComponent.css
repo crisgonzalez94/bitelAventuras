@@ -1,0 +1,74 @@
+@font-face {
+  font-family: exo-extra-bold-italic;
+  src: url('../../assets/fonts/exo-extra-bold-italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*Slider pasivo*/
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 130px;
+  height: 130px;
+  margin: -15px;
+}
+
+.swiper-slide img{
+  margin-bottom: -22px;
+}
+
+/*Slider Activo*/
+.swiper-slide-active{
+  width: 170px;
+  height: 170px;
+}
+
+/*Swipper slide se transforma en active cuando esta en el centro*/
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-pagination{
+  color: red;
+}
+/*Puntitos*/
+.swiper-pagination-bullet{
+  background: red;
+}
+
+
+section{
+  text-align: center;
+}
+
+.playButton{
+  text-align: center;
+
+  background-repeat: no-repeat;
+
+  width: 120px;
+  height: 50px;
+
+  text-decoration: none;
+  color: #004167;
+
+  font-family: exo-extra-bold-italic;
+
+  border: none;
+}
+
+.planetaLink{
+  text-decoration: none;
+  font-family: exo-extra-bold-italic;
+  color: white;
+}

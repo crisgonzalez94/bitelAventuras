@@ -1,0 +1,38 @@
+<svg width="26" height="31" viewBox="0 0 26 31" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path id="hcvl6hvhfa" d="M.02.02h17.597v1.134H.02z"/>
+        <path id="pax0pazo6b" d="M.202.152h20.942v29.155H.202z"/>
+        <path d="M20.942 14.808c0 8.05-4.688 14.578-10.471 14.578S.001 22.859.001 14.808C0 6.758 4.687.231 10.47.231s10.47 6.526 10.47 14.577" id="6lixco756e"/>
+        <linearGradient x1="67.299%" y1="12.229%" x2="34.277%" y2="91.715%" id="qa8gigu81f">
+            <stop stop-color="#FFD529" offset="0%"/>
+            <stop stop-color="#FFEF69" offset="17.75%"/>
+            <stop stop-color="#FDCB00" offset="39.387%"/>
+            <stop stop-color="#FFE400" offset="61.059%"/>
+            <stop stop-color="#FDCB00" offset="82.219%"/>
+            <stop stop-color="#FFE400" offset="100%"/>
+        </linearGradient>
+        <filter x="0%" y="0%" width="100%" height="100%" filterUnits="objectBoundingBox" id="alesl7zvbd">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feColorMatrix values="0 0 0 0 1 0 0 0 0 0.839215686 0 0 0 0 0.17254902 0 0 0 0.35 0" in="shadowOffsetOuter1"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="matrix(-1 0 0 1 23.606 .078)">
+            <mask id="moc4qua4hc" fill="#fff">
+                <use xlink:href="#pax0pazo6b"/>
+            </mask>
+            <path d="M21.144 14.73c0 8.05-4.688 14.577-10.47 14.577C4.89 29.307.201 22.78.201 14.73.202 6.679 4.89.152 10.673.152S21.144 6.68 21.144 14.73" fill="#F0AA00" mask="url(#moc4qua4hc)"/>
+        </g>
+        <path fill="#F0AA00" d="M15.443 29.385H13.14V.231h2.303z"/>
+        <g fill-rule="nonzero" transform="matrix(-1 0 0 1 25.914 0)">
+            <use fill="#000" filter="url(#alesl7zvbd)" xlink:href="#6lixco756e"/>
+            <use fill="url(#qa8gigu81f)" xlink:href="#6lixco756e"/>
+        </g>
+        <path d="M7.72 14.538c0 6.187 3.537 11.203 7.902 11.203s7.903-5.016 7.903-11.203c0-6.188-3.538-11.203-7.903-11.203S7.719 8.35 7.719 14.538" fill="#F09020"/>
+        <path d="M7.337 14.808c0 6.038 3.427 10.933 7.654 10.933 4.228 0 7.654-4.895 7.654-10.933S19.22 3.875 14.991 3.875c-4.227 0-7.654 4.895-7.654 10.933" fill="#FDAE00"/>
+        <g>
+            <path d="M16.251 14.41c1.093-.055 1.958 1.09 1.932 2.554-.026 1.46-.92 2.726-1.995 2.823l-2.053.186c-1.493.135-1.95 1.627-1.95 1.627v-4.217c0-1.53.885-2.816 1.981-2.87m1.976-6.891c1.064 0 1.907 1.19 1.882 2.654-.025 1.467-.895 2.684-1.942 2.725l-1.998.079c-1.454.056-1.898 1.531-1.898 1.531V10.39c0-1.527.862-2.768 1.927-2.768" fill="#EA9C00"/>
+            <path d="M16.694 14.41c1.093-.055 1.958 1.09 1.932 2.554-.026 1.46-.92 2.726-1.995 2.823l-2.053.186c-1.493.135-1.95 1.627-1.95 1.627v-4.217c0-1.53.885-2.816 1.981-2.87m1.976-6.891c1.064 0 1.906 1.19 1.882 2.654-.025 1.467-.895 2.684-1.942 2.725l-1.999.079c-1.454.056-1.897 1.531-1.897 1.531V10.39c0-1.527.862-2.768 1.927-2.768" fill="#FFF200"/>
+        </g>
+    </g>
+</svg>
