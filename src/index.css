@@ -13,3 +13,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*Esta clase es para el boton de cerrar*/
+.close{
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  border: 1px solid white;
+  background: none;
+  color: white;
+}
+
+/*Esta clase es para hacer un fondo a los modales*/
+.betweenModal{
+  position: absolute;
+  width: 700%;
+  height: 700%;
+  top: -1000px;
+  left: -1000px;
+  background: rgba(20,20, 20, 0.7);
+  z-index: -1;
+}
+
+/*---------------------Fonts ---------------------------*/
+@font-face {
+  font-family: exo-extra-bold-italic;
+  src: url('./assets/fonts/exo-extra-bold-italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: exo-bold;
+  src: url('./assets/fonts/exo-bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: exo-medium-italic;
+  src: url('./assets/fonts/exo-medium-Italic.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

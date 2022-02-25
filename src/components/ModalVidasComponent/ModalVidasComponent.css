@@ -1,0 +1,49 @@
+.modalTitle{
+  height: 80px;
+  position: relative;
+  text-align: center;
+  padding-top: 4px;/*Esta linea baja el titulo*/
+  font-family: exo-extra-bold-italic;/*Fuente importada ver index.css*/
+  color: white;
+}
+
+.modalBody{
+  text-align: center;
+}
+
+.modalContent{
+  width: 320px;
+  height: 400px;
+  text-align: center;
+}
+
+.imgModal{
+  margin-top: 20px;
+  width: 300px;
+  margin-left: 5px;
+}
+
+.modalParagraph{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  font-family: exo-extra-bold-italic;
+  color: #23e4de;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.modalBtn{
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-left: 23px;
+  padding-right: 23px;
+  font-family: exo-extra-bold-italic;
+  font-size: 18.3px;
+  text-align: center;
+  text-decoration: none;
+  color: #004167;
+}

@@ -1,11 +1,3 @@
-@font-face {
-  font-family: exo-extra-bold-italic;
-  src: url('../../assets/fonts/exo-extra-bold-italic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 .swiper {
   width: 100%;
   padding-top: 50px;
@@ -18,7 +10,6 @@
   background-size: cover;
   width: 130px;
   height: 130px;
-  margin: -15px;
 }
 
 .swiper-slide img{

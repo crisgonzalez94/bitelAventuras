@@ -1,0 +1,39 @@
+.modalTitle{
+  height: 80px;
+  position: relative;
+  text-align: center;
+  padding-top: 4px;/*Esta linea baja el titulo*/
+  font-family: exo-extra-bold-italic;/*Fuente importada ver index.css*/
+  color: white;
+}
+
+.modalBody{
+  text-align: center;
+}
+
+.modalContent{
+  width: 330px;
+  height: 370px;
+}
+
+.imgModalMoneda{
+  padding-top: 30px;
+}
+
+.modalParagraph{
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: exo-extra-bold-italic;
+  color: #23e4de;
+  text-align: center;
+  font-size: 20px;
+}
+
+.modalFooter{
+  color: white;
+  font-family: exo-medium-italic;
+}
+
+.storesBox{
+  margin-top: 10px;
+}

@@ -13,6 +13,7 @@ import playButtonAsset from '../../assets/bot-n.svg';//Boton de Jugar
 import planetaCarrerasAsset from '../../assets/planeta-carreras.svg';//Planeta
 import planetaRobotAsset from '../../assets/planeta-robot.svg';//Planeta
 import planetaCanicasAsset from '../../assets/planeta-canicas.svg';//Planeta
+import proximamenteAsset from '../../assets/proximamente.svg';//Aviso de proximamente
 
 //Styles
 const playButtonStyles = {
@@ -20,8 +21,8 @@ const playButtonStyles = {
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
   backgroundSize: '190px 50px'
-
 }
+
 
 export function ChooseGameComponent(){
 
@@ -64,7 +65,8 @@ export function ChooseGameComponent(){
 
             <a className="planetaLink">
               <img src={planetaCarrerasAsset} alt="" />
-              <span>Proximamente</span>
+              {/*<span>Proximamente</span>*/}
+              <img src={proximamenteAsset} alt="" style={{opacity: '50%'}}/>
             </a>
             
           </div>
@@ -84,7 +86,8 @@ export function ChooseGameComponent(){
 
             <a className="planetaLink">
               <img src={planetaCanicasAsset} alt="" />
-              <span>Proximamente</span>
+              {/*<span>Proximamente</span>*/}
+              <img src={proximamenteAsset} alt="" style={{opacity: '50%'}}/>
             </a>
 
           </div>

@@ -1,0 +1,9 @@
+footer{
+  width: 100%;
+  text-align: center;
+}
+
+/*Mobile*/
+.footerImg{
+  width: 110px;
+}
